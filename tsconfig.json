@@ -19,13 +19,7 @@
     "noEmit": false,
     "jsx": "react-jsx",
     "baseUrl": "src",
-    "incremental": true,
-    "paths": {
-      "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
-      "@contexts/*": ["contexts/*"],
-      "@ducks/*": ["ducks/*"]
-    }
+    "incremental": true
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "build", "dist"]
